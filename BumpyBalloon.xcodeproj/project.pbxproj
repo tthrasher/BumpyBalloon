@@ -14,6 +14,10 @@
 		FC5B272E258BFAE9003A5759 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5B272D258BFAE9003A5759 /* GameViewController.swift */; };
 		FC5B2731258BFAE9003A5759 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC5B272F258BFAE9003A5759 /* Main.storyboard */; };
 		FC5B2733258BFAED003A5759 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC5B2732258BFAED003A5759 /* Assets.xcassets */; };
+		FC5B2740258D770B003A5759 /* PlayerExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = FC5B273F258D770B003A5759 /* PlayerExplosion.sks */; };
+		FC5B2743258D787D003A5759 /* explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC5B2742258D787D003A5759 /* explosion.wav */; };
+		FC5B2746258D78D1003A5759 /* balloon-game.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC5B2745258D78D1003A5759 /* balloon-game.mp3 */; };
+		FC5B2749258D7CD3003A5759 /* BalloonSmoke.sks in Resources */ = {isa = PBXBuildFile; fileRef = FC5B2748258D7CD3003A5759 /* BalloonSmoke.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		FC5B2730258BFAE9003A5759 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC5B2732258BFAED003A5759 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC5B2734258BFAED003A5759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC5B273F258D770B003A5759 /* PlayerExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PlayerExplosion.sks; sourceTree = "<group>"; };
+		FC5B2742258D787D003A5759 /* explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explosion.wav; sourceTree = "<group>"; };
+		FC5B2745258D78D1003A5759 /* balloon-game.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "balloon-game.mp3"; sourceTree = "<group>"; };
+		FC5B2748258D7CD3003A5759 /* BalloonSmoke.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BalloonSmoke.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +70,13 @@
 				FC5B2727258BFAE9003A5759 /* GameScene.sks */,
 				FC5B2729258BFAE9003A5759 /* Actions.sks */,
 				FC5B272B258BFAE9003A5759 /* GameScene.swift */,
+				FC5B2748258D7CD3003A5759 /* BalloonSmoke.sks */,
+				FC5B273F258D770B003A5759 /* PlayerExplosion.sks */,
 				FC5B272D258BFAE9003A5759 /* GameViewController.swift */,
 				FC5B272F258BFAE9003A5759 /* Main.storyboard */,
 				FC5B2732258BFAED003A5759 /* Assets.xcassets */,
+				FC5B2742258D787D003A5759 /* explosion.wav */,
+				FC5B2745258D78D1003A5759 /* balloon-game.mp3 */,
 				FC5B2734258BFAED003A5759 /* Info.plist */,
 			);
 			path = BumpyBalloon;
@@ -127,9 +139,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC5B2743258D787D003A5759 /* explosion.wav in Resources */,
 				FC5B2731258BFAE9003A5759 /* Main.storyboard in Resources */,
 				FC5B2728258BFAE9003A5759 /* GameScene.sks in Resources */,
 				FC5B2733258BFAED003A5759 /* Assets.xcassets in Resources */,
+				FC5B2740258D770B003A5759 /* PlayerExplosion.sks in Resources */,
+				FC5B2749258D7CD3003A5759 /* BalloonSmoke.sks in Resources */,
+				FC5B2746258D78D1003A5759 /* balloon-game.mp3 in Resources */,
 				FC5B272A258BFAE9003A5759 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,7 +308,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.thrasher.BumpyBalloon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -311,7 +327,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.thrasher.BumpyBalloon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
